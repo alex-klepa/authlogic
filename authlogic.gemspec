@@ -26,7 +26,7 @@ require "authlogic/version"
   s.add_dependency "activerecord", [">= 4.2", "< 5.3"]
   s.add_dependency "activesupport", [">= 4.2", "< 5.3"]
   s.add_dependency "request_store", "~> 1.0"
-  s.add_dependency "scrypt", ">= 1.2", "< 4.0"
+  s.add_dependency "scrypt-ruby", "~> 2.0.2"
   s.add_development_dependency "bcrypt", "~> 3.1"
   s.add_development_dependency "byebug", "~> 10.0"
   s.add_development_dependency "minitest-reporters", "~> 1.3"
